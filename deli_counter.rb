@@ -9,3 +9,7 @@ def line(array)
     puts message + new_array.join('')
   end
 end
+
+def take_a_number 
+  
+end
