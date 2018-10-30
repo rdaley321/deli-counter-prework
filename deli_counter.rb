@@ -6,6 +6,6 @@ def line(array)
   else
     message = "The line is currently:"
     new_array = array.each_with_index.map{|x,i| " #{i+1}. #{x}"}
-    puts message + new_array.to_s
+    puts message + new_array.join('')
   end
 end
